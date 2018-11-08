@@ -112,7 +112,22 @@ print(abs(-2.9))
 
 # method ceil yang didapat dari library math berfungsi untuk mencari nilai
 # atap dari suatu bilangan
+# untuk melihat math function yang ada didalam library math, search google "python 3 math functions"
 print(math.ceil(2.2))
 
-# menambahkan comment untuk testng git
-print("end of session one")
+# TYPE CONVERSION
+# secara default, function "input()" pada python adalah dalam type string, jadi jika
+# user menginput dengan angka, maka akan terjadi error
+# --------------------
+# syntax type conversion adalah:
+#         int(x) untuk merubah variabel x menjadi type integer
+#         float(x) untuk merubah varibel x menjadi desimal atau float
+#         bool(x) untuk merubah variabel x menjadi tipe data boolean (True/False)
+#         str(x) untuk merubah variabel x menjadi tipe data string
+
+x = input("x: ")
+y = int(x) + 1
+print(f"x : {x}, y : {y}")
+
+# ------ END OF SESSION ONE OF PYTHON 3 BASIC -----------------
+print("end of session one Python 3 basic")
